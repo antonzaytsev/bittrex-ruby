@@ -30,6 +30,18 @@ module Bittrex
         CODE
       end
 
+
+      # def getbalances
+      #   client.get('account/getbalances')
+      # end
+
+      # def getorderhistory(market)
+      #   client.get('account/getorderhistory', market: market)
+      # end
+
+      # def getwithdrawalhistory
+      #   client.get('account/getwithdrawalhistory')
+      # end
     end
   end
 end

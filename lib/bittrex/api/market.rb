@@ -26,6 +26,21 @@ module Bittrex
         CODE
       end
 
+      # def buylimit(market, quantity, rate)
+      #   client.get('market/buylimit', market: market, quantity: quantity, rate: rate)
+      # end
+
+      # def selllimit(market, quantity, rate)
+      #   client.get('market/selllimit', market: market, quantity: quantity, rate: rate)
+      # end
+
+      # def cancel(uuid)
+      #   client.get('market/cancel', uuid: uuid)
+      # end
+
+      # def getopenorders(market)
+      #   client.get('market/getopenorders', market: market)
+      # end
     end
   end
 end
